@@ -19,6 +19,10 @@ a:hover {
     color: rgb(206, 43, 76);
 }
 
+img {
+    border-radius: 4px;
+}
+
 .body {
     display: flex;
     flex-direction: column;
@@ -1097,6 +1101,41 @@ header * {
     }
 }
 
+.span_brown {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(84, 21, 21);
+}
+@media (max-width: 768px) {
+    .span_brown {
+        font-size: 16px;
+    }
+}
+@media (max-width: 425px) {
+    .span_brown {
+        font-size: 14px;
+    }
+}
+
+.general-block__h3_black {
+    margin: 10px 0px 10px 10px;
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+@media (max-width: 768px) {
+    .general-block__h3_black {
+        font-size: 16px;
+        margin: 10px 0px 10px 5px;
+    }
+}
+@media (max-width: 425px) {
+    .general-block__h3_black {
+        font-size: 14px;
+        margin: 10px 0px 10px 5px;
+    }
+}
+
 
 
 
@@ -2020,8 +2059,7 @@ header * {
 }
 
 .main__cover_projects {
-    position: relative;
-    height: auto;                   /*3000px*/
+    position: relative;                  
     height: 5800px;
     object-fit: cover;
     overflow: hidden;
@@ -2489,4 +2527,212 @@ header * {
     }
 }
 
+
+
 /*.......................................................projects page........................................................*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ kids works page @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.main_kids-works {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    height: 5700px;  /*9000px*/
+    margin: 0 auto;
+}
+
+.main__cover_kids-works {
+    position: relative;                  
+    height: 5700px;  /*9000px*/
+    object-fit: cover;
+    overflow: hidden;
+    opacity: 80%;
+}
+
+.content-block__general-block_kids-works {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    position: relative;
+    z-index: 80;
+    width: 100%;
+    height: 5700px;                        
+    max-width: 1340px;
+    margin: 0px auto 0px;
+}
+@media (max-width: 1440px) {
+    .content-block__general-block_kids-works {
+        margin: 120px auto 0px;
+    }
+}
+@media (max-width: 1024px) {
+    .content-block__general-block_kids-works {
+        margin: 130px auto 0px;
+    }
+}
+@media (max-width: 768px) {
+    .content-block__general-block_kids-works {
+        margin: 0 auto
+    }
+}
+
+.gallery-wrapper_kids-works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    max-width: 1340px;
+    height: auto;
+    margin: 20px auto 0px;
+    opacity: 99%;
+}
+@media (max-width: 768px) {
+    .gallery-wrapper_kids-works {
+        margin: 15px auto 0px;
+    }
+}
+
+.gallery-wrapper__item_kids-works {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 421px;
+    height: 340px; /*?auto; 320px*/
+    margin: 10px;
+    object-fit: cover;
+    overflow: hidden;
+}
+@media (max-width: 1024px) {
+    .gallery-wrapper__item_kids-works {
+        max-width: 440px;
+    }
+}
+@media (max-width: 768px) {
+    .gallery-wrapper__item_kids-works {
+        max-width: 346px;
+    }
+}
+@media (max-width: 425px) {
+    .gallery-wrapper__item_kids-works {
+        max-width: 391px;         
+        max-height: 320px;
+        margin: 5px;
+    }
+}
+@media (max-width: 414px) {
+    .gallery-wrapper__item_kids-works {
+        max-width: 381px;         
+        margin: 5px;
+    }
+}
+@media (max-width: 375px) {
+    .gallery-wrapper__item_kids-works {
+        max-width: 340px;
+        margin: 5px;
+    }
+}
+@media (max-width: 320px) {
+    .gallery-wrapper__item_kids-works {
+        width: 285px;
+        max-height: 260px;
+        margin: 5px;
+    }
+}
+
+.gallery-wrapper__item_kids-works__pic {
+    max-height: 340px;
+    border-radius: 4px;
+    object-fit: cover;
+    overflow: hidden;
+}
+@media (max-width: 1024px) {
+    .gallery-wrapper__item_kids-works__pic {
+        max-width: 440px;
+        height: 340px;
+    }
+}
+@media (max-width: 768px) {
+    .gallery-wrapper__item_kids-works__pic {
+        max-width: 346px;
+    }
+}
+@media (max-width: 425px) {
+    .gallery-wrapper__item_kids-works__pic {
+        max-width: 391px;         
+        max-height: 320px;
+    }
+}
+@media (max-width: 414px) {
+    .gallery-wrapper__item_kids-works__pic {
+        max-width: 381px;         
+    }
+}
+@media (max-width: 375px) {
+    .gallery-wrapper__item_kids-works__pic {
+        max-width: 340px;
+    }
+}
+@media (max-width: 320px) {
+    .gallery-wrapper__item_kids-works__pic {
+        width: 285px;
+        max-height: 260px;
+    }
+}
+.gallery-wrapper__item_kids-works__pic_mod {
+    border-radius: 4px;
+}
+@media (max-width: 425px) {
+    .gallery-wrapper__item_kids-works__pic_mod {
+        object-fit: contain;
+    }
+}
+
+.gallery-wrapper__item_kids-works__title {
+    margin: 5px 0px 0px;
+}
+@media (max-width: 425px) {
+    .gallery-wrapper__item_kids-works__title {
+        margin: 5px 0px 0px;
+    }
+}
+@media (max-width: 320px) {
+    .gallery-wrapper__item_kids-works__title {
+        height: 20px;
+        font-size: 13px;
+    }
+}
+
+.general-block__h2_journal_kids-works {
+    height: fit-content;
+    margin: 21.6px 0px 0px 12px;
+    font-style: italic;
+    font-size: 26px;
+    /*color: rgb(84, 21, 21);*/
+}
+@media (max-width: 768px) {
+    .general-block__h2_journal_kids-works {
+        margin: 21.6px 0px 0px 10px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 425px) {
+    .general-block__h2_journal_kids-works {
+        margin: 21.6px 0px 0px 7px;
+        font-size: 17px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
