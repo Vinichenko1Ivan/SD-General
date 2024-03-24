@@ -842,7 +842,7 @@ header * {
 }
 @media (max-width: 425px) {
     .general-block__h1_index {
-        margin: 15px 0px 0px 5px;
+        margin: 15px 0px 0px 0px;
         font-size: 20px;
     }
 }
@@ -854,7 +854,7 @@ header * {
 }
 @media (max-width: 375px) {
     .general-block__h1_index {
-        margin: 15px 0px 0px 5px;
+        margin: 15px 0px 0px 0px;
     }
 }
 
