@@ -2760,12 +2760,12 @@ header * {
 @media (max-width: 425px) {
     .gallery-wrapper__item_kids-works__title {
         margin: 5px 0px 0px;
+        font-size: 12px;
     }
 }
 @media (max-width: 320px) {
     .gallery-wrapper__item_kids-works__title {
         height: 20px;
-        font-size: 13px;
     }
 }
 
