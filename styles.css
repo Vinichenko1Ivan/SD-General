@@ -2850,17 +2850,17 @@ header * {
 }
 @media (max-width: 425px) {
     .main_news {
-        height: 18500px;
+        height: 18550px;
     }
 }
 @media (max-width: 375px) {
     .main_news {
-        height: 20200px;
+        height: 20300px;
     }
 }
 @media (max-width: 320px) {
     .main_news {
-        height: 22700px;
+        height: 22800px;
     }
 }
 
@@ -2874,17 +2874,17 @@ header * {
 }
 @media (max-width: 425px) {
     .main__cover_news {
-        height: 18500px;
+        height: 18550px;
     }
 }
 @media (max-width: 375px) {
     .main__cover_news {
-        height: 20200px;
+        height: 20300px;
     }
 }
 @media (max-width: 320px) {
     .main__cover_news {
-        height: 22700px;
+        height: 22800px;
     }
 }
 
