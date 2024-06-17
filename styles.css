@@ -2845,12 +2845,12 @@ header * {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    height: 14200px;
+    height: 14400px;
     margin: 0 auto;
 }
 @media (max-width: 425px) {
     .main_news {
-        height: 18400px;
+        height: 18500px;
     }
 }
 @media (max-width: 375px) {
@@ -2867,14 +2867,14 @@ header * {
 .main__cover_news {
     position: relative;
     height: auto;                   
-    height: 14200px;
+    height: 14400px;
     object-fit: cover;
     overflow: hidden;
     opacity: 80%;
 }
 @media (max-width: 425px) {
     .main__cover_news {
-        height: 18400px;
+        height: 18500px;
     }
 }
 @media (max-width: 375px) {
