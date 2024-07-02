@@ -2860,7 +2860,7 @@ header * {
 }
 @media (max-width: 320px) {
     .main_news {
-        height: 37600px;
+        height: auto;
     }
 }
 
