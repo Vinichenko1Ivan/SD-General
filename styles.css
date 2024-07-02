@@ -2860,7 +2860,7 @@ header * {
 }
 @media (max-width: 320px) {
     .main_news {
-        height: 36600px;
+        height: 37600px;
     }
 }
 
@@ -2884,7 +2884,7 @@ header * {
 }
 @media (max-width: 320px) {
     .main__cover_news {
-        height: 36600px;
+        height: 37600px;
     }
 }
 
