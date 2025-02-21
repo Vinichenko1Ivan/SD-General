@@ -1587,12 +1587,13 @@ header * {
 
 .general-block__content-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: auto;
     justify-content: space-between;
 }
 @media (max-width: 425px) {
     .general-block__content-container {
+        flex-wrap: wrap;
         justify-content: center;
     }
 }
@@ -1600,14 +1601,15 @@ header * {
 .general-block__short-info {
     display: flex;
     flex-direction: column;
-    width: 630px;
+    justify-content: space-between;
+    width: 640px;
     margin: 0px 0px 10px 0px;
     font-size: 10px;
    /*color: rgb(84, 21, 21);*/
 }
 
 .short-info__iframe {
-    max-width: 640px;
+    max-width: 600px;
     height: 380px;
     margin: 0px 0px 5px 0px;
 }
