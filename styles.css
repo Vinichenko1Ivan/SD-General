@@ -1587,7 +1587,8 @@ header * {
 
 .general-block__content-container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-direction: row;
     width: auto;
     justify-content: space-between;
 }
@@ -1598,11 +1599,27 @@ header * {
     }
 }
 
+.general-block__content-container_smi {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-between;
+}
+@media (max-width: 425px) {
+    .general-block__content-container_smi {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+
 .general-block__short-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 640px;
+    width: 620px;
     margin: 0px 0px 10px 0px;
     font-size: 10px;
    /*color: rgb(84, 21, 21);*/
