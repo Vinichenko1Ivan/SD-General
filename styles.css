@@ -1879,8 +1879,7 @@ header * {
     flex: 1 1 auto;
     flex-direction: column;
     width: 100%;
-    height: 100%;
-    height: 6800px;
+    height: auto;
     margin: 0 auto;
 }
 /*@media (max-width: 1401px) {
@@ -1896,7 +1895,7 @@ header * {
 
 @media (max-width: 425px) {
     .main_history {
-        height: 7400px;
+        height: auto;
     }
 }
 /*@media (max-width: 375px) {
@@ -1913,7 +1912,7 @@ header * {
 .main__cover_history {
     position: relative;
     height: auto;                   /*3000px*/
-    height: 6800px;
+    height: auto;
     object-fit: cover;
     overflow: hidden;
     opacity: 80%;
@@ -1931,7 +1930,7 @@ header * {
 
 @media (max-width: 425px) {
     .main__cover_history {
-        height: 7400px;
+        height: auto;
     }
 }
 /*@media (max-width: 375px) {
@@ -1945,6 +1944,18 @@ header * {
     }
 }*/
 
+
+.content-block__general-block_history {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
 .history-container {
     display: flex;
     flex-direction: column;
@@ -1954,13 +1965,13 @@ header * {
 
 .history-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
     height: auto;
 }
 @media (max-width: 768px) {
     .history-content {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
 
@@ -2052,6 +2063,25 @@ header * {
         max-width: 322px;
     }
 }*/
+.history-title {
+    height: fit-content;
+    margin: 140px 0px 0px;
+    font-style: italic;
+    font-size: 26px;
+    /*color: rgb(84, 21, 21);*/
+}
+@media (max-width: 768px) {
+    .history-title {
+        font-size: 20px;
+        margin: 25px 0px 0px;
+    }
+}
+@media (max-width: 425px) {
+    .history-title {
+        margin: 20px 0px 0px;
+        font-size: 17px;
+    }
+}
 
 
 /*???????????????????????????????????????????????????????history page?????????????????????????????????????????????????????????*/
