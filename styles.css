@@ -2963,7 +2963,7 @@ header * {
 .main__cover_news {
     position: relative;
     height: auto;                   
-    height: 28400px;
+    height: 30000px;
     object-fit: cover;
     overflow: hidden;
     opacity: 80%;
