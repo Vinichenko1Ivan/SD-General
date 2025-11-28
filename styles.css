@@ -2991,24 +2991,24 @@ header * {
 .main__cover_news {
     position: relative;
     height: auto;                   
-    height: 34500px;
+    height: 35000px;
     object-fit: cover;
     overflow: hidden;
     opacity: 80%;
 }
 @media (max-width: 425px) {
     .main__cover_news {
-        height: 40000px;
+        height: 43500px;
     }
 }
 @media (max-width: 375px) {
     .main__cover_news {
-        height: 42000px;
+        height: 45200px;
     }
 }
 @media (max-width: 320px) {
     .main__cover_news {
-        height: 45000px;
+        height: 47200px;
     }
 }
 
