@@ -2780,6 +2780,54 @@ header * {
         margin: 5px;
     }
 }
+.gallery-wrapper__item_kids-works_news {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    width: 280px;
+    max-height: 324px; /*?auto; 320px*/
+    margin: 0px 0px 20px 0px;
+    border-radius: 4px;
+    object-fit: cover;
+    overflow: hidden;
+}
+@media (max-width: 1024px) {
+    .gallery-wrapper__item_kids-works_news {
+        max-width: 440px;
+    }
+}
+@media (max-width: 768px) {
+    .gallery-wrapper__item_kids-works_news {
+        max-width: 346px;
+    }
+}
+@media (max-width: 425px) {
+    .gallery-wrapper__item_kids-works_news {
+        width: 401px;         
+        max-height: 320px;
+        margin: 5px;
+    }
+}
+@media (max-width: 414px) {
+    .gallery-wrapper__item_kids-works_news {
+        max-width: 381px;         
+        margin: 5px;
+    }
+}
+@media (max-width: 375px) {
+    .gallery-wrapper__item_kids-works_news {
+        max-width: 340px;
+        margin: 5px;
+    }
+}
+@media (max-width: 320px) {
+    .gallery-wrapper__item_kids-works_news {
+        width: 285px;
+        max-height: 260px;
+        margin: 5px;
+    }
+}
+
 
 .gallery-wrapper__item_kids-works__pic {
     width: 390px;
@@ -2856,6 +2904,45 @@ header * {
 }
 @media (max-width: 320px) {
     .gallery-wrapper__item_kids-works__pic_mod {
+        width: 285px;
+        height: 239px;
+    }
+}
+.gallery-wrapper__item_kids-works__pic_mod_news {
+    width: 280px;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: contain;
+}
+@media (max-width: 1024px) {
+    .gallery-wrapper__item_kids-works__pic_mod_news {
+        max-width: 440px;
+    }
+}
+@media (max-width: 768px) {
+    .gallery-wrapper__item_kids-works__pic_mod_news {
+        width: 346px;
+    }
+}
+@media (max-width: 425px) {
+    .gallery-wrapper__item_kids-works__pic_mod_news {
+        width: 401px;
+        height: 298px;
+        object-fit: contain;
+    }
+}
+@media (max-width: 414px) {
+    .gallery-wrapper__item_kids-works__pic_mod_news {
+        width: 380px;
+    }
+}
+@media (max-width: 375px) {
+    .gallery-wrapper__item_kids-works__pic_mod_news {
+        width: 340px;
+    }
+}
+@media (max-width: 320px) {
+    .gallery-wrapper__item_kids-works__pic_mod_news {
         width: 285px;
         height: 239px;
     }
@@ -2991,24 +3078,24 @@ header * {
 .main__cover_news {
     position: relative;
     height: auto;                   
-    height: 35500px;
+    height: 36000px;
     object-fit: cover;
     overflow: hidden;
     opacity: 80%;
 }
 @media (max-width: 425px) {
     .main__cover_news {
-        height: 43500px;
+        height: 44000px;
     }
 }
 @media (max-width: 375px) {
     .main__cover_news {
-        height: 45200px;
+        height: 46000px;
     }
 }
 @media (max-width: 320px) {
     .main__cover_news {
-        height: 47200px;
+        height: 48000px;
     }
 }
 
