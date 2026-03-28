@@ -3048,8 +3048,9 @@ header * {
 }
 
 
-
+/******************************************************************************************************************************/
 /****************************************************NEWS PAGE*****************************************************************/
+/******************************************************************************************************************************/
 
 .main_news {
     display: flex;
@@ -3078,24 +3079,24 @@ header * {
 .main__cover_news {
     position: relative;
     height: auto;                   
-    height: 36000px;
+    height: 42000px;
     object-fit: cover;
     overflow: hidden;
     opacity: 80%;
 }
 @media (max-width: 425px) {
     .main__cover_news {
-        height: 44000px;
+        height: 51000px;
     }
 }
 @media (max-width: 375px) {
     .main__cover_news {
-        height: 46000px;
+        height: 52500px;
     }
 }
 @media (max-width: 320px) {
     .main__cover_news {
-        height: 48000px;
+        height: 55500px;
     }
 }
 
