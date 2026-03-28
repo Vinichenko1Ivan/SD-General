@@ -3091,12 +3091,12 @@ header * {
 }
 @media (max-width: 375px) {
     .main__cover_news {
-        height: 52500px;
+        height: 54500px;
     }
 }
 @media (max-width: 320px) {
     .main__cover_news {
-        height: 55500px;
+        height: 57500px;
     }
 }
 
