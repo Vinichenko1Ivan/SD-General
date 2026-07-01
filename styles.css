@@ -3086,17 +3086,17 @@ header * {
 }
 @media (max-width: 425px) {
     .main__cover_news {
-        height: 38000px;
+        height: 39000px;
     }
 }
 @media (max-width: 375px) {
     .main__cover_news {
-        height: 40000px;
+        height: 42000px;
     }
 }
 @media (max-width: 320px) {
     .main__cover_news {
-        height: 42000px;
+        height: 43500px;
     }
 }
 
