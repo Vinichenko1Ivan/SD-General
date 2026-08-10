@@ -1366,6 +1366,18 @@ header * {
     margin: 3px;
 }
 
+.pfki-logo {
+    width: 82px;
+    height: 50px;
+}
+
+.button_pfki {
+    cursor: pointer;
+    transition: all ease 0.5s;
+    border: none;
+    background-color: transparent;
+}
+
 .ink-logo,
 .trud-logo,
 .century-logo,
@@ -1417,6 +1429,11 @@ header * {
 
 .trud:hover {
     background-color: rgb(5, 93, 156);
+}
+
+.pfki-logo:hover {
+    background-color: transparent;
+    border-radius: 10%;
 }
 
 .footer__list__center {
